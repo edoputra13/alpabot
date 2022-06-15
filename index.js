@@ -178,7 +178,7 @@ autoregister = user_register
 typemenu = typeMenu
 baper = ownername
 apiku = 'https://api.zeeoneofc.xyz/'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'https://chat.whatsapp.com/kepoan' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = ownerNumberr
 owner = targetpc
 numbernye = '0'
@@ -382,7 +382,7 @@ await alpha.updatePresence(from, Presence.composing)
 		const isNsfw = isGroup ? _nsfw.includes(from) : false
 		const isEventon = isGroup ? event.includes(from) : false
 		const isSewa = _sewa.checkSewaGroup(from, sewa)
-		const alphaNumber = [`62887435047326@s.whatsapp.net`, `918156874290@s.whatsapp.net` , `62857101331033@s.whatsapp.net`]
+		const alphaNumber = [`6288213312211@s.whatsapp.net`, `918156874298@s.whatsapp.net` , `6288213312211@s.whatsapp.net`]
 		const isCreator = alphaNumber.includes(sender)
 		const isPremium = isOwner || isCreator || mek.key.fromMe ? true : premium.checkPremiumUser(sender, _premium)
 		const gcount = isPremium ? gcounttprem : gcounttuser
